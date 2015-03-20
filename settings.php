@@ -1,0 +1,3 @@
+<?php
+DEFINE("CLIENT_ID", "33e86fe204f6449a9992fdef8252d000"); //Duh
+?>

@@ -1,0 +1,43 @@
+html,
+body,
+#map-canvas {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.sidebar {
+    width: 250px;
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+    position: fixed;
+    z-index: 5000;
+    right: -250px;
+    top: 0;
+    color: white;
+    padding: 10px;
+    transition: all .3s;
+}
+.sidebar-shown {
+    right: 0px;
+}
+.sidebar-tab {
+    width: 50px;
+    height: 50px;
+    padding: 16px;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    left: -50px;
+    background-color: rgba(0,0,0,0.7);
+}
+.flash {
+    box-shadow: 0 0 10px 5px;
+}
+#arrow,
+.sidebar-tab {
+    transition: all 1s;
+}
+.rotate {
+    transform: rotate(180deg);
+}
